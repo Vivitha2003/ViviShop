@@ -1,0 +1,23 @@
+*{
+    font-family: 'Merriweather', serif;
+
+}
+
+.nav-item a:hover{
+    color: #ffc800 !important;
+
+}
+.dropdown-menu li a{
+    color: white;
+    background-color: black;
+}
+.dropdown-menu li a:hover{
+    color: black !important;
+}
+
+#footer .footer-top .footer-links p a:hover{
+    color: #ffc800 !important;
+}
+
+
+  

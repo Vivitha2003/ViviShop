@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivi Shop</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></Script>
+    <link rel="stylesheet" href="./website.css">
+</head>
+<body>
+    <!-- top navbar -->
+    <div class="top-navbar d-flex justify-content-between ps-1 pe-0 px-md-3 pt-3 ">
+        <p>WELCOME TO OUR SHOP</p>
+        <div class="icons d-flex flex-nowrap">
+            <a class="text-decoration-none text-black" href="login.html"><img src="./images/register.png" alt="" class="img-fluid">Login</a>
+            <a class="text-decoration-none text-black" href="register.html"><img src="./images/register.png" alt=""  class="img-fluid">Register</a>
+        </div>
+    </div>
+    <!-- top navbar -->
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-black " id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand  fw-bold fs-2 text-light d-inline-block align-top " href="index.html" id="logo"><span id="span1" class="text-warning fs-1 ">V</span>ivi <span class=" text-warning " > Shop</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><img src="./images/menu.png" alt="" width="30px"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./index.html#product">Product</a>
+            </li>
+            <li class="nav-item dropdown  ">
+              <a class="nav-link dropdown-toggle text-light " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Category
+              </a>
+              <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdown" >
+                <li><a class="dropdown-item text-light" href="#">Smart Phone</a></li>
+                <li><a class="dropdown-item text-light" href="#">Mobile Phone</a></li>
+                <li><a class="dropdown-item text-light" href="#">Cameras</a></li>
+                <li><a class="dropdown-item text-light" href="#">Fridge</a></li>
+                <li><a class="dropdown-item text-light" href="#">AC</a></li>
+                <li><a class="dropdown-item text-light" href="#">Smart Watch</a></li>
+                <li><a class="dropdown-item text-light" href="#">Headphone</a></li>
+                <li><a class="dropdown-item text-light" href="#">Laptop</a></li>
+                <li><a class="dropdown-item text-light" href="#">PC Moniter</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" id="search">
+            <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-warning" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  
+    <!-- navbar -->
+
+      <!-- home content -->
+      <section class="home d-flex justify-content-between align-items-center flex-md-nowrap flex-wrap bg-body-secondary px-4 py-5">
+        <div class="content">
+          <h1 class="display-4 fw-bold"> <span class="text-black">Electronic Products</span>
+            <br>
+            <span class="text-black"> Up To </span><span id="span2 " class="text-warning ">50%</span> <span class="text-black">Off</span>
+          </h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, saepe.
+            <br>Lorem ipsum dolor sit amet consectetur.
+          </p>
+          <div><button class=" btn btn-dark text-white">Shop Now</button></div>
+    
+        </div>
+        <div class="img">
+          <img src="./images/background.png" alt="" class="img-fluid">
+        </div>
+      </section>
+        <!-- home content -->
+
+
+
+
+
+
+         <!-- product cards -->
+    <div class="container pt-5" id="product">
+        <h1 class="text-center text-warning border-bottom border-warning border-2">PRODUCTS</h1>
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card h-100 w-100">
+              <img src="./images/p6.png" alt="">
+              <div class="card-body">
+                <h3 class="text-center Iphone ">Iphone</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <div class="star text-center">
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                </div>
+                <div class="container d-flex justify-content-between">
+                <h2>₨ 1000 </h2>
+                <h2><span class=" fa fa-shopping-cart"></span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card h-100 w-100">
+              <img src="./images/a1.png" alt="">
+              <div class="card-body">
+                <h3 class="text-center">Airpods</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <div class="star text-center ">
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                </div>
+                <div class="container d-flex justify-content-between">
+                <h2>₨ 1000 </h2>
+                <h2><span class=" fa fa-shopping-cart"></span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card h-100 w-100">
+              <img src="./images/laptop2.png" alt="">
+              <div class="card-body">
+                <h3 class="text-center">Laptop</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <div class="star text-center">
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                </div>
+                <div class="container d-flex justify-content-between">
+                    <h2>₨ 200 </h2>
+                    <h2><span class=" fa fa-shopping-cart"></span></h2>
+                 </div>
+           
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card h-100 w-100">
+              <img src="./images/t1.png" alt="">
+              <div class="card-body">
+                <h3 class="text-center">Ipad</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <div class="star text-center">
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                </div>
+                <div class="container d-flex justify-content-between">
+                    <h2>₨ 300 </h2>
+                    <h2><span class=" fa fa-shopping-cart"></span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card h-100 w-100">
+              <img src="./images/w1.png" alt="">
+              <div class="card-body">
+                <h3 class="text-center watch">Watch</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <div class="star text-center">
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                </div>
+                <div class="container d-flex justify-content-between">
+                    <h2>₨ 50.60 </h2>
+                    <h2><span class=" fa fa-shopping-cart"></span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card h-100 w-100">
+              <img src="./images/pcm1.png" alt="">
+              <div class="card-body">
+                <h3 class="text-center moniter">Computer</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <div class="star text-center">
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                </div>
+                <div class="container d-flex justify-content-between">
+                    <h2>₨ 600 </h2>
+                    <h2><span class=" fa fa-shopping-cart"></span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card h-100 w-100">
+              <img src="./images/phone1.png" alt="">
+              <div class="card-body">
+                <h3 class="text-center">iPhone</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <div class="star text-center">
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                </div>
+                <div class="container d-flex justify-content-between">
+                    <h2>₨ 200 </h2>
+                    <h2><span class=" fa fa-shopping-cart"></span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card h-100 w-100">
+              <img src="./images/h1.png" alt="">
+              <div class="card-body">
+                <h3 class="text-center">Headphone</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <div class="star text-center">
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                </div>
+                <div class="container d-flex justify-content-between">
+                    <h2>₨ 9000 </h2>
+                    <h2><span class=" fa fa-shopping-cart"></span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- product cards -->
+
+
+       <!-- other cards -->
+    <div class="container  p-3" id="other-cards">
+        <div class="row">
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card bg-body-secondary">
+              <img src="./images/c1.png" alt="">
+              <div class="card-img-overlay   pt-lg-5 pt-md-1 pt-0 ">
+                <h3 class="display-5 ls-1">Best Laptop</h3>
+                <span class="border-bottom border-black border-2">Latest Collection</span>
+                <p>Up To 50% Off</p>
+                <button id="shopnow" class="btn btn-dark text-white fw-bold">Shop Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 py-3 py-md-0 ">
+            <div class="card bg-body-secondary">
+              <img src="./images/c2.png" alt="" class="">
+              <div class="card-img-overlay  pt-lg-5 pt-md-1 pt-0">
+                <h3 class="display-5">Best Headphone</h3>
+                <span class="border-bottom border-black border-2">Latest Collection</span>
+                <p>Up To 50% Off</p>
+                <button id="shopnow" class="btn btn-dark text-white fw-bold">Shop Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- other cards -->
+
+
+      <!-- banner -->
+      <section class="banner d-flex justify-content-between align-items-center flex-md-nowrap flex-wrap bg-body-secondary px-5 py-5">
+        <div class="content">
+          <h1 class="display-3 fw-bold"> <span class="text-black">Electronic Gadget</span>
+            <br>
+            <span class="text-black"> Up To </span><span id="span2 " class="text-warning ">50%</span> <span class="text-black">Off</span>
+          </h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, saepe.
+            <br>Lorem ipsum dolor sit amet consectetur.
+          </p>
+          <div><button class=" btn btn-dark text-white">Shop Now</button></div>
+    
+        </div>
+        <div class="img">
+          <img src="./images/image1.png" alt="" class="img-fluid">
+        </div>
+      </section>
+      <!-- banner -->
+  
+
+
+
+     <!-- product cards -->
+    <div class="container" id="product-cards">
+
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card h-100 w-100">
+            <img src="./images/pr1.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Washer</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+              </div>
+              <div class="container d-flex justify-content-between">
+                <h2>₨ 100.50 </h2>
+                <h2><span class=" fa fa-shopping-cart"></span></h2>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card h-100 w-100">
+            <img src="./images/pr2.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">AC</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+              </div>
+              <div class="container d-flex justify-content-between">
+                <h2>₨ 200 </h2>
+                <h2><span class=" fa fa-shopping-cart"></span></h2>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card h-100 w-100">
+            <img src="./images/pr3.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Oven</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+              </div>
+              <div class="container d-flex justify-content-between">
+                <h2>₨ 200.30 </h2>
+                <h2><span class=" fa fa-shopping-cart"></span></h2>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card h-100 w-100">
+            <img src="./images/pr4.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Fridge</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+                  <i class="fa fa-star checked text-warning"></i>
+              </div>
+              <div class="container d-flex justify-content-between">
+                <h2>₨ 300 </h2>
+                <h2><span class=" fa fa-shopping-cart"></span></h2>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+
+
+
+
+         <!-- other cards -->
+    <div class="containermm p-3" id="other">
+        <div class="row">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/c3.png" alt=""  class="opacity-75" >
+              <div class="card-img-overlay">
+                <h3 class="text-black fw-bold">Home Gadget</h3>
+                <p class="text-black fw-bold">Latest collection Up To 50% Off</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/c4.png" alt="" class="opacity-75">
+              <div class="card-img-overlay">
+                <h3 class="text-black fw-bold">Gaming Gadget</h3>
+                <p class="text-black fw-bold">Latest collection Up To 50% Off</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/c5.png" alt=""  class="opacity-75">
+              <div class="card-img-overlay ">
+                <h3 class="text-black fw-bold">Electronic Gadget</h3>
+                <p class="text-black fw-bold">Latest collection Up To 50% Off</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- other cards -->
+
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-3 py-3 py-md-0 ">
+          <div class="card h-100 w-100">
+            <img src="./images/pr5.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Fan</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+              </div>
+              <div class="container d-flex justify-content-between">
+                <h2>₨ 50.60 </h2>
+                <h2><span class=" fa fa-shopping-cart"></span></h2>
+                </div>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card h-100 w-100">
+            <img src="./images/pr6.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Fridge</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+              </div>
+              <div class="container d-flex justify-content-between">
+                <h2>₨ 1500 </h2>
+                <h2><span class=" fa fa-shopping-cart"></span></h2>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card h-100 w-100">
+            <img src="./images/pr7.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">PC</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+              </div>
+              <div class="container d-flex justify-content-between">
+                <h2>₨ 500.60 </h2>
+                <h2><span class=" fa fa-shopping-cart"></span></h2>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card h-100 w-100">
+            <img src="./images/pr8.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Moniter</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+              </div>
+              <div class="container d-flex justify-content-between">
+                <h2>₨ 250 </h2>
+                <h2><span class=" fa fa-shopping-cart"></span></h2>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card h-100 w-100">
+            <img src="./images/pr9.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Watch</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+              </div>
+              <div class="container d-flex justify-content-between">
+                <h2>₨ 30 </h2>
+                <h2><span class=" fa fa-shopping-cart"></span></h2>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card h-100 w-100">
+            <img src="./images/pr10.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Charger</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+              </div>
+              <div class="container d-flex justify-content-between">
+                <h2>₨ 100.50 </h2>
+                <h2><span class=" fa fa-shopping-cart"></span></h2>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card h-100 w-100">
+            <img src="./images/pr11.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Mouse</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+              </div>
+              <div class="container d-flex justify-content-between">
+                <h2>₨ 30 </h2>
+                <h2><span class=" fa fa-shopping-cart"></span></h2>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card h-100 w-100">
+            <img src="./images/pr12.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Joysticks</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+                <i class="fa fa-star checked text-warning"></i>
+              </div>
+              <div class="container d-flex justify-content-between">
+                <h2>₨ 500 </h2>
+                <h2><span class=" fa fa-shopping-cart"></span></h2>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- product cards -->
+
+
+
+     <!-- offer -->
+     <div class="container py-5" id="offer">
+        <div class="row py-3">
+          <div class="col-md-3 py-3 py-md-0">
+            <i class=" fs-1 fa fa-shopping-cart"></i>
+            <h3 class="h2">Free Shipping</h3>
+            <p class="h5">On order over ₨ 1000</p>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <i class=" fs-1 fa fa-rotate-left"></i>
+            <h3 class="h2">Free Returns</h3>
+            <p class="h5">Within 30 days</p>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <i class=" fs-1 fa fa-truck"></i>
+            <h3 class="h2">Fast Delivery</h3>
+            <p class="h5">World Wide</p>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <i class=" fs-1 fa fa-thumbs-up"></i>
+            <h3 class="h2">Big choice</h3>
+            <p class="h5">Of products</p>
+          </div>
+        </div>
+      </div>
+      <!-- offer -->
+
+
+      
+    <!-- newslater -->
+    <div class="container p-1 p-sm-5 text-center" id="newslater">
+        <h3 class="text-center">Subscribe To The Vivi Shop For Latest upload.</h3>
+        <div class=" form input text-center">
+          <input  class="h4" type="text" placeholder="Enter Your Email.." >
+          <button id="subscribe " class="btn btn-warning text-dark fw-bold h5">SUBSCRIBE</button>
+        </div>
+      </div>
+      <!-- newslater -->
+
+
+       <!-- footer -->
+    <footer id="footer" class="container-fluid bg-black p-5 mt-5">
+        <div class="footer-top">
+          <div class="container-fluid ">
+            <div class="row">
+  
+              <div class="col-lg-3 col-md-6 footer-contact d-flex flex-column justify-content-start text-white">
+                <h3 class="text-warning"> Vivi Shop</h3>
+            
+                 <p> Erode</p>
+                  <p>Salem</p>
+                  <p>Coimbatore</p>
+                
+              <p> Phone: +91 00000 00000 </p>
+                <p>Email: vivishop@.com </p>
+                <br>
+              </div>
+  
+              <div class="col-lg-3 col-md-6 footer-links d-flex flex-column justify-content-start ">
+                <h4 class="text-warning">Usefull Links</h4>
+               
+                <p><a href="#" class="text-decoration-none text-white">Home</a></p>
+               <p> <a href="#" class="text-decoration-none text-white">About Us</a></p>
+                <p><a href="#" class="text-decoration-none text-white">Services</a></p>
+                <p><a href="#" class="text-decoration-none text-white">Terms of service</a></p>
+                <p><a href="#" class="text-decoration-none text-white">Privacy policey</a></p>
+                <br>
+               
+              </div>
+  
+  
+  
+             
+  
+              <div class="col-lg-3 col-md-6 footer-links d-flex flex-column justify-content-start">
+                <h4 class="text-warning">Our Services</h4>
+  
+              
+                <p><a href="#" class="text-decoration-none text-white">PS 5</a></p>
+                <p><a href="#" class="text-decoration-none text-white">Computer</a></p>
+               <p> <a href="#" class="text-decoration-none text-white">Gaming Laptop</a></p>
+                <p><a href="#" class="text-decoration-none text-white">Mobile Phone</a></p>
+                <p><a href="#" class="text-decoration-none text-white">Gaming Gadget</a></p>
+                <br>
+               
+              </div>
+  
+              <div class="col-lg-3 col-md-6 footer-links text-white">
+                <h4 class="text-warning">Our Social Networks</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, quibusdam.</p>
+  
+                <div class="socail-links mt-3 d-flex gap-4"  >
+                  <a href="#"><i class=" text-white fa fa-twitter"></i></a>
+                  <a href="#"><i class=" text-white fa fa-facebook-f"></i></a>
+                  <a href="#"><i class=" text-white fa fa-instagram"></i></a>
+                  <a href="#"><i class=" text-white fa fa-skype"></i></a>
+                  <a href="#"><i class=" text-white fa fa-linkedin"></i></a>
+                  <br>
+                  <br>
+                </div>
+              
+              </div>
+  
+            </div>
+          </div>
+        
+        </div>
+       
+        <div class="container-fluid border-top border-warning border-1 py-4 text-white d-flex flex-md-row justify-content-between gap-2 flex-column jusitfy-content-start">
+          <div class="copyright">
+            &copy; Copyright <span class="text-warning">Vivi Shop</span>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed by <a href="#" class="text-warning">vivitha</a>
+          </div>
+        </div>
+      </footer>
+      <!-- footer -->
+  
+
+      <a href="#" class="arrow  position-fixed bottom-0 end-0 m-4"><span class="rounded-5 p-3 bg-warning"><i class=" fa fa-arrow-up text-white"></i></span></a>
+  
+  
+
+
+
+  
+
+    
+    
+</body>
+</html>
